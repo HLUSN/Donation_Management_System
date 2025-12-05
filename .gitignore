@@ -1,0 +1,107 @@
+# .NET / C# / Visual Studio
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# .NET Core
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# React build output
+/frontend/donation-system-web/build/
+/frontend/donation-system-web/.env.local
+/frontend/donation-system-web/.env.development.local
+/frontend/donation-system-web/.env.test.local
+/frontend/donation-system-web/.env.production.local
+
+# Testing
+/coverage
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
